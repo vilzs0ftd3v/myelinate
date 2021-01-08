@@ -1,0 +1,170 @@
+body {font-family: "Varela Round", sans-serif;}
+        /* mobile */
+        @media only screen and (max-width: 599px) {       
+           div.sidebar{
+              height: 100%;
+              width: 0px;
+              position: fixed;
+              /* background-color: #fd7e14; */
+              background-color: #fc892c;
+              margin-top:58px;
+              overflow: hidden;
+            }
+            div#toolBarContainer{
+              position:fixed;
+              width:30px; 
+              height:30px; 
+              float:left;
+              margin-top:58px;
+              z-index:1;
+              margin-left:0px; 
+              background-color: whitesmoke; 
+              padding-top:2px;
+            }
+            div#dashboardTable_id{
+              margin-left: 15px; 
+              margin-right:15px; 
+              margin-top:100px;
+            }
+            img#toolBarImage_id{
+              content:url('menu.svg');
+            }
+            img.image-a{
+              display:none;
+            }
+            #toolBarStatus_id{
+              width:5px;
+            }
+        }
+        /* tablet */
+        @media only screen and (min-width: 600px) {
+            div.sidebar{
+              height: 100%;
+              width: 0px;
+              position: fixed;
+              /* background-color: #fd7e14; */
+              background-color: #fc892c;
+              margin-top:57px;
+              overflow: hidden;
+            }
+            div#toolBarContainer{
+              position:fixed;
+              width:30px; 
+              height:30px; 
+              float:left;
+              z-index:1;
+              margin-top:57px;
+              margin-left:0px; 
+              background-color: whitesmoke;  
+              
+              padding-top:2px;
+            }
+            div#dashboardTable_id{
+              margin-left: 15px; 
+              margin-right:15px; 
+              margin-top:100px;
+            }
+            img#toolBarImage_id{
+              content:url('menu.svg');
+            }
+
+            img.image-a{
+              display:hidden;
+            }
+            #toolBarStatus_id{
+              width:10px;
+            }
+        }
+        /* desktop */
+        @media only screen and (min-width: 768px) {
+            div.sidebar{
+              height: 100%;
+              width: 225px;
+              position: fixed;
+              /* background-color: #fd7e14; */
+              background-color: #fc892c;
+              margin-top:57px;
+              overflow: hidden;
+            }
+
+            div#toolBarContainer{
+              position:fixed;
+              width:30px; 
+              height:30px; 
+              float:left;
+              z-index:1;
+              margin-top:57px;
+              margin-left:195px; 
+              background-color: whitesmoke; 
+              padding-top:2px;
+            }
+
+            div#dashboardTable_id{
+              margin-left: 240px; 
+              margin-right:15px; 
+              margin-top:100px;
+            }
+
+            img#toolBarImage_id{
+              content:url('menu.svg');
+            }
+            img.image-a{
+              position:fixed;
+            }
+            #toolBarStatus_id{
+              width:10px;
+            }
+
+        }
+        
+    
+
+       
+
+        div.sidebar ul li{
+           
+            margin-left:-31px;
+         
+            
+        }
+        
+        div.sidebar ul li a.sidebar-a{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            /* color:white; */
+            color: rgb(247, 247, 247);
+            padding-left: 10px;
+            border-top:1px solid #fd7e14; 
+           
+            
+        }
+        div.sidebar ul li a:hover{
+            text-decoration: none;
+            color:black;
+            /* background-color:white; */
+            /* background-color:#fd7e14; */
+            background-color: rgb(247, 247, 247);
+         
+        }
+
+        div.sidebar ul li a.present{
+            text-decoration: none;
+            color:black;
+            /* background-color:white; */
+            /* background-color: #fc892c; */
+            background-color: #fd7e14;
+         
+        }
+        #logoContainer-open.logoContainerClass:hover{
+          border:0;
+          background-color: rgb(170, 169, 169);
+        }
+
+        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+          background-color:  #f1f1f1;
+        }
+       /* nav{
+        box-shadow: 0 2px 4px -1px rgba(0,0,0,.2);
+      
+       } */
