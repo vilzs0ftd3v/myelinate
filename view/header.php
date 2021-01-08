@@ -41,12 +41,7 @@
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-		</li>
+        
 		<li class="nav-item">
           <a class="nav-link" href="login">Login</a>
 		<!-- </li> -->
