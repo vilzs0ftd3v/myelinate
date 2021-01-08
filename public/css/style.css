@@ -1,4 +1,4 @@
-body {font-family: "Varela Round", sans-serif;}
+body {font-family: "Varela Round", sans-serif;background-image: url('bg3.png');}
         /* mobile */
         @media only screen and (max-width: 599px) {       
            div.sidebar{
